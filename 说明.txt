@@ -1,0 +1,21 @@
+SRL-English
+经典Highway Bi-LSTM模型，数据集是CONLL2012
+BILSTM_CRF.py文件中的 with tf.variable_scope('Attention'): 表示自注意力层部分(SA_Highway Bi-LSTM模型)
+
+SRL-English-Dependency
+DRT_Highway Bi-LSTM模型，数据集是CONLL2012
+BILSTM_CRF.py文件中的 with tf.variable_scope('Attention'): 表示自注意力层部分(DRT_SA_Highway Bi-LSTM模型)
+
+SRL-English-Dependency -have-POS
+DRT_Highway Bi-LSTM模型中加入词性信息，数据集是CONLL2012
+
+SRL-Chinese
+经典Highway Bi-LSTM模型，数据集是CPB
+BILSTM_CRF.py文件中的 with tf.variable_scope('Attention'): 表示自注意力层部分(SA_Highway Bi-LSTM模型)
+
+SRL-Chinese-Dependency
+DRT_Highway Bi-LSTM模型，数据集是CPB
+BILSTM_CRF.py文件中的 with tf.variable_scope('Attention'): 表示自注意力层部分(DRT_SA_Highway Bi-LSTM模型)
+
+SRL-Chinese-Dependency -NonePOS
+DRT_Highway Bi-LSTM模型中去掉词性信息，数据集是CPB
